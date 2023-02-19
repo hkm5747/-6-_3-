@@ -1,0 +1,83 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.v_line{
+    border-left: 2.5px solid #808080;
+    height: 900px;
+    position: absolute;
+    transform: translate(8300%, -1%);
+}
+
+#search_box {
+    height: 40px;
+    width: 300px;
+    border: 1px solid #808080;
+    position: absolute; top: 17.5px; right: 80px;
+  }
+  
+#search_box input {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    float: left;
+    outline: none;
+}
+
+#search_box button {
+    width: 50px;
+    height: 100%;
+    border: none;
+    background: #117efa;
+    float: right;
+    color: white;
+}
+
+#search_box button:hover{
+    background: #117eface;
+}
+
+#search_box button:active{
+    background: #117efa;
+}
+
+.logo{
+    font-family: 'Bakbak One', cursive;
+    font-size: 2.4rem;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #117efa;
+    font-weight: 900;
+}
+
+.menu{
+    list-style-type: disc;
+    margin-left: 10px;
+}
+
+.login_join{
+    position: absolute; top: 18.5px; right: 530px;
+    color: black;
+    border: solid #808080 1px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.visitor{
+    position: absolute; top: 25px; right:750px;
+    font-size: 18px;
+}
+
+#search_option{
+    height: 42px;
+    width: 80px;
+    font-size: 15px;
+    position: absolute; top: -0.2px; right: 300px;
+}
+
+#show_posting{
+    position: absolute; top: 300px; right:130px;
+}
